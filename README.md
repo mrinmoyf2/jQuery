@@ -80,14 +80,15 @@ You can also use the slim build, which excludes the [ajax](https://api.jquery.co
 
 1.
 
- ![GDG Logo](D:\jQuery_#100DOC\imgs\jQuery_download_1.png)
+ ![GDG Logo](imgs\jQuery_download_1.png)
 
 
 
 2. Save the file in your working folder.
 
- ![GDG Logo](D:\jQuery_#100DOC\imgs\jQuery_download_2.png)
+ ![GDG Logo](imgs\jQuery_download_2.png)
 
 
 
 * This Repo is just for jQuery .[ #100DaysOfCodes](https://www.100daysofcode.com/) 
+
