@@ -80,13 +80,13 @@ You can also use the slim build, which excludes the [ajax](https://api.jquery.co
 
 1.
 
- ![GDG Logo](imgs\jQuery_download_1.png)
+ ![Process_1](imgs\jQuery_download_1.png)
 
 
 
 2. Save the file in your working folder.
 
- ![GDG Logo](imgs\jQuery_download_2.png)
+ ![Process_2](imgs\jQuery_download_2.png)
 
 
 
