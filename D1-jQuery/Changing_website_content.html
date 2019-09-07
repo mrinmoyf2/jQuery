@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>jQuery</title>
+    <script src="jquery.min.js"></script>
+<style media="screen" type="text/css">
+
+#circle{
+  width: 150px;
+  height:150px;
+  border-radius:50%;
+  background-color:green;
+  margin:10px;
+}
+
+#square{
+  width:150px;
+  height:150px;
+  background-color:red;
+  margin:10px;
+}
+</style>
+
+
+
+  </head>
+<body>
+
+  <div id="circle"></div>
+
+    <p>hola developers</p>
+    <div id="square"></div>
+
+  <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik" width="" height=""></iframe>
+
+    <script type="text/javascript">
+
+
+
+    $("#circle").click(function() {
+
+       $("p").html("Hello <b>world!</b>");
+    })
+
+    $("#square").click(function() {
+
+       $("iframe").attr("src", "https://maps.google.com/maps?q=itahar%2C&t=k&z=9&ie=UTF8&iwloc=&output=embed");
+    })
+
+
+
+    </script>
+
+
+</body>
+</html>

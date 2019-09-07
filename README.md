@@ -90,5 +90,15 @@ You can also use the slim build, which excludes the [ajax](https://api.jquery.co
 
 
 
+* ### Link jQuery :
+
+  ```javascript
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  ```
+
+  ___
+
+  
+
 * This Repo is just for jQuery .[ #100DaysOfCodes](https://www.100daysofcode.com/) 
 

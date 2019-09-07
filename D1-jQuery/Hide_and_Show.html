@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>jQuery</title>
+    <script src="jquery.min.js"></script>
+    <style media="screen">
+      #hide_iind{
+        margin-top: 10px;
+      }
+    </style>
+</head>
+<body>
+
+  <p>If you click on the "Hide" button, I will disappear.</p>
+
+  <button id="hide">Hide</button>
+  <button id="show">Show</button>
+
+<br />
+
+  <button id="hide_iind">Hide</button>
+
+<h3>This is a paragraph with little content.</h3>
+<h3>This is another small paragraph.</h3>
+
+
+
+    <script type="text/javascript">
+
+// script 1st.
+
+    $(document).ready(function(){
+  $("#hide").click(function(){
+    $("p").hide();
+  });
+  $("#show").click(function(){
+    $("p").show();
+  });
+});
+
+// script 2nd.
+// The following example demonstrates the speed parameter with hide()
+
+$(document).ready(function(){
+  $("#hide_iind").click(function(){
+    $("h3").hide(1000);
+  });
+});
+
+//You can also toggle between hiding and showing an element with the toggle() method.
+    </script>
+
+
+</body>
+</html>
