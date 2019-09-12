@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>AJAX</title>
+ <script src="jquery.min.js"></script>
+
+
+  <style type="text/css">
+
+  </style>
+
+
+</head>
+
+<body>
+    <p></p>
+  
+
+  <script type="text/javascript">
+      
+      $.ajax({
+          method:'GET',
+          url: 'https://jsonplaceholder.typicode.com/posts',
+          dataType: 'json'
+      }).done(function(data){
+              console.log(data);
+              });
+      
+      
+      
+      $.get('test.html', function(data) 
+            {
+            alert(data);
+            })
+      
+      
+          $.ajax("test.html").done(function(data) {
+
+      $("p").html(data);
+
+    }).fail(function(){
+        
+        alert("Could not get data.");
+        
+    });
+      
+      
+      
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Changing-Style</title>
+    <script src="jquery.min.js"></script>
+    <style type="text/css">
+        #circle {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background-color: green;
+            margin: 10px;
+
+        }
+
+    </style>
+
+
+</head>
+
+<body>
+
+    <div id="circle">
+
+    </div>
+    <p>You can also see the value of the property.<p>
+
+            <p>example:-
+
+                $("#circle").click(function(){ <br />
+                alert($("#circle").css("background-color"));<br />
+                });
+
+            </p>
+            <script type="text/javascript">
+                $("#circle").click(function() {
+                    $("#circle").css("background-color", "red"); //using the ".css" you can change any css style. example:- .css("css property", "new value");
+                });
+
+                $("#circle").click(function() {
+                    alert($("#circle").css("background-color"));
+                });
+
+            </script>
+</body>
+
+</html>

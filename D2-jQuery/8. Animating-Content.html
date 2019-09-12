@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Animating-Content</title>
+    <script src="jquery.min.js"></script>
+    <style type="text/css">
+        #circle {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background-color: green;
+            margin: 10px;
+
+        }
+
+    </style>
+
+
+</head>
+
+<body>
+
+    <div id="circle">
+
+    </div>
+
+    <script type="text/javascript">
+        $("#circle").click(function() {
+
+            $(this).animate({
+                width: "400px",
+                height: "400px",
+                marginLeft: "100px", //marginLeft is a javasvript property.
+                marginTop: "100px" //marginTop is a javasvript property.
+            }, 2000, function() {
+
+                $(this).css("background-color", "red");
+            });
+
+
+        });
+
+    </script>
+</body>
+
+</html>
